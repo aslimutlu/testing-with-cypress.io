@@ -1,3 +1,4 @@
+
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
@@ -7,5 +8,7 @@ module.exports = defineConfig({
     },
     // Çerezlerin vs. temizlenmemesi için eklendi.
     testIsolation: false,
+    baseUrl: "https://admin-template-jet.vercel.app/#/dashboard",
   },
 });
+
