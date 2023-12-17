@@ -9,6 +9,10 @@ module.exports = defineConfig({
     // Çerezlerin vs. temizlenmemesi için eklendi.
     testIsolation: false,
     baseUrl: "https://admin-template-jet.vercel.app/#/dashboard",
+    env: {
+      "userEmail": "deneme@deneme.com",
+      "pass": "12345"
+    }
   },
 });
 
